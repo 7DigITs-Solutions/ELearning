@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".Test_Result.Level1_Test_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!-- q1 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q1_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="visible"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 1"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="What output is produced by the following program?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/level2_q1"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/lightblue" />
+
+                <RadioGroup
+                    android:id="@+id/radioG1_lv2_q1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q1Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="A compiler error."
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q1Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Exception Thrown."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q1Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Equal."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q1Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Not Equal."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q1Res5_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="None of the above."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ1_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q2 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q2_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 2"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="What output is produced by the following program?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/level2_q2"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/lightblue" />
+
+                <RadioGroup
+                    android:id="@+id/radioG2_lv2_q2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q2Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="A compiler error."
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q2Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Exception Thrown."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q2Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Equal."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q2Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Not Equal."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q2Res5_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="None of the above."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ2_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q3 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q3_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 3"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="What output is produced by the following program?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/level2_q3"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/lightblue" />
+
+                <RadioGroup
+                    android:id="@+id/radioG3_lv2_q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q3Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="A compiler error."
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q3Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Exception Thrown."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q3Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Equal."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q3Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Not Equal."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q3Res5_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="None of the above."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ3_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q4 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q4_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 4"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="What output is produced by the following program?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/level2_q4"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/lightblue" />
+
+                <RadioGroup
+                    android:id="@+id/radioG4_lv2_q4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q4Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="compile time error."
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q4Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="runtime error."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q4Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="a=20  b=0  c=20  d=1."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q4Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="none of the mentioned."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ4_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q5 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q5_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 5"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="What is the output of this program?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/level2_q5"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/lightblue" />
+
+                <RadioGroup
+                    android:id="@+id/radioG5_lv2_q5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q5Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="compile and runs fine."
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q5Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="20."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q5Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="run time error."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q5Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="compile time error."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ5_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q6 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q6_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 6"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="Which of these statements are incorrect?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+
+
+                <RadioGroup
+                    android:id="@+id/radioG6_lv2_q6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q6Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="Equal to operator has least precedence."
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q6Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Brackets () have highest precedence."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q6Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="Division operator, /, has higher precedence than multiplication operator."
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q6Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Addition operator, +, and subtraction operator have equal precedence."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ6_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q7 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q7_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 7"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="Which of these have highest precedence?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+                <RadioGroup
+                    android:id="@+id/radioG7_lv2_q7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q7Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="()"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q7Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="++"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q7Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="*"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q7Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text=">>"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ7_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q8 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q8_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 8"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="What is the output of relational operators?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+                <RadioGroup
+                    android:id="@+id/radioG8_lv2_q8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q8Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="Integer."
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q8Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Boolean."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q8Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Characters."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q8Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Double."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ8_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q9 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q9_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 9"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="What is the output of this code?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/level2_q9"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/lightblue" />
+
+                <RadioGroup
+                    android:id="@+id/radioG9_lv2_q9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q9Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="This program writes '4' to the standard output."
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q9Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="This program writes '8' to the standard output."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q9Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="This program writes '0' to the standard output."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q9Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="This program writes '3' to the standard output."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+
+                    <RadioButton
+                        android:id="@+id/Q9Res5_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="This program writes nothing to the standard output."
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ9_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q10 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q10_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 10"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="What is the output of this program?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/level2_q10"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/lightblue" />
+
+                <RadioGroup
+                    android:id="@+id/radioG10_lv2_q10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q10Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="24 8"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q10Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="24 9"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q10Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="27 8"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q10Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="27 9"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ10_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- q11 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/q11_lv2_cardView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Question 11"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="What is the output of this program?"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/darkblue" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/level2_q11"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/lightblue" />
+                <RadioGroup
+                    android:id="@+id/radioG11_lv1_q11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/Q11Res1_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="10"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/Q11Res2_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="11"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q11Res3_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="12"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/Q11Res4_lv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="56"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnQ11_level2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SevenDigITs.Solutions.E_Learning">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Signin_Signup.SignInActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Signin_Signup.SignUpActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".OverViewActivity"
+            android:label="Course overview"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".videos.Lesson1Level1Activity"
+            android:label="@string/app_name"
+            android:parentActivityName=".level1.Level1_Lesson1_Activity" />
+        <activity
+            android:name=".videos.Lesson2Level1Activity"
+            android:label="@string/app_name"
+            android:parentActivityName=".level1.Level1_Lesson2_Activity" />
+        <activity
+            android:name=".level1.Level1Activity"
+            android:label="Level 1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Level2.Level2Activity"
+            android:label="Level 2"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Signin_Signup.ForgotPassword" />
+        <activity
+            android:name=".Test_Result.Level1_Test_Activity"
+            android:label="Level 1 Test"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Test_Result.Level2_Test_Activity"
+            android:label="Level 2 Test"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Test_Result.ResultLevel1Activity"
+            android:label="Result of Level 1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Test_Result.ResultLevel2Activity"
+            android:label="Result of Level 2"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".level1.Level1_Lesson1_Activity"
+            android:label="Lesson 1"
+            android:parentActivityName=".level1.Level1Activity" />
+        <activity
+            android:name=".level1.Level1_Lesson2_Activity"
+            android:label="Lesson 2"
+            android:parentActivityName=".level1.Level1Activity" />
+        <activity
+            android:name=".level1.Level1_Lesson3_Activity"
+            android:label="Lesson 3"
+            android:parentActivityName=".level1.Level1Activity" />
+        <activity
+            android:name=".level1.Level1_Lesson4_Activity"
+            android:label="Lesson 4"
+            android:parentActivityName=".level1.Level1Activity" />
+        <activity
+            android:name=".Level2.Level2_Lesson1_Activity"
+            android:label="Lesson 1"
+            android:parentActivityName=".Level2.Level2Activity" />
+        <activity
+            android:name=".Level2.Level2_Lesson2_Activity"
+            android:label="Lesson 2"
+            android:parentActivityName=".Level2.Level2Activity" />
+        <activity
+            android:name=".Level2.Level2_Lesson3_Activity"
+            android:label="Lesson 3"
+            android:parentActivityName=".Level2.Level2Activity" />
+        <activity
+            android:name=".level1.Level1_Lesson1_txt1_Activity"
+            android:label="Explanation"
+            android:parentActivityName=".level1.Level1_Lesson1_Activity" />
+        <activity
+            android:name=".level1.Level1_Lesson2_txt2_Activity"
+            android:label="Explanation"
+            android:parentActivityName=".level1.Level1_Lesson2_Activity" />
+        <activity
+            android:name=".level1.Level1_Lesson3_txt3_Activity"
+            android:label="Explanation"
+            android:parentActivityName=".level1.Level1_Lesson3_Activity" />
+        <activity
+            android:name=".level1.Level1_Lesson4_txt4_Activity"
+            android:label="Explanation"
+            android:parentActivityName=".level1.Level1_Lesson4_Activity" />
+        <activity
+            android:name=".Level2.Level2_Lesson1_txt1_Activity"
+            android:label="Explanation"
+            android:parentActivityName=".level1.Level1_Lesson4_Activity" />
+        <activity
+            android:name=".Level2.Level2_Lesson2_txt2_Activity"
+            android:label="Explanation"
+            android:parentActivityName=".level1.Level1_Lesson4_Activity" />
+        <activity
+            android:name=".Level2.Level2_Lesson3_txt3_Activity"
+            android:label="Explanation"
+            android:parentActivityName=".level1.Level1_Lesson4_Activity" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="Personal Info"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".videos.Lesson4Level1Activity"
+            android:label="@string/app_name"
+            android:parentActivityName=".level1.Level1_Lesson4_Activity" />
+        <activity
+            android:name=".videos.Lesson1Level2Activity"
+            android:label="@string/app_name"
+            android:parentActivityName=".Level2.Level2_Lesson1_Activity" />
+        <activity
+            android:name=".videos.Lesson2Level2Activity"
+            android:label="@string/app_name"
+            android:parentActivityName=".Level2.Level2_Lesson2_Activity" />
+        <activity
+            android:name=".Test_Result.ScoreLevel1Activity"
+            android:label="Level 1 Score"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Test_Result.ScoreLevel2Activity"
+            android:label="Level 2 Score"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Test_Result.CorrectAnswerLevel1"
+            android:label="Correct Answer"
+            android:parentActivityName=".Test_Result.ResultLevel1Activity" />
+        <activity android:name=".Test_Result.CorrectAnswerLevel2"
+            android:label="Correct Answer"
+            android:parentActivityName=".Test_Result.ResultLevel2Activity"></activity>
+    </application>
+
+</manifest>

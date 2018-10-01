@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_marginTop="10dp"
+                       android:text="The Arithmetic Operators"
+                       android:textSize="17sp"
+                       android:textStyle="bold"
+                       android:textColor="@color/gray"
+                       android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="( + , – , * , / , % )"
+                        android:layout_gravity="center"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Addition, subtraction, multiplication, and division are the basic mathematical operations. The java operators related to these basic operations."
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Assume integer variable A holds 10 and variable B holds 20, then"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="340dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/txt1_lev1_lesson1"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:text="Example"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="The following program is a simple example which demonstrates the arithmetic operators."
+                            android:textSize="15sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/gray"
+                            android:textAlignment="textStart"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/txt1_lev1_lesson1a"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="This will produce the following result: "
+                            android:textSize="15sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/gray"
+                            android:textAlignment="textStart"/>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="@color/lightgray2"
+                            android:layout_margin="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="a + b = 30"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginLeft="30dp"
+                                android:textColor="@color/gray"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="a - b = -10"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginStart="30dp"
+                                android:textColor="@color/gray"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="a * b = 200"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginLeft="30dp"
+                                android:textColor="@color/gray"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="b / a = 2"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginStart="30dp"
+                                android:textColor="@color/gray"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="b % a = 0"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginStart="30dp"
+                                android:textColor="@color/gray"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="c % a = 5"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginStart="30dp"
+                                android:textColor="@color/gray"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="a++ = 10"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginStart="30dp"
+                                android:textColor="@color/gray"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="b-- = 11"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginStart="30dp"
+                                android:textColor="@color/gray"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="d++ = 25"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginStart="30dp"
+                                android:textColor="@color/gray"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="++d = 27"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:layout_marginStart="30dp"
+                                android:textColor="@color/gray"
+                                android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

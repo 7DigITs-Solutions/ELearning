@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".level1.Level1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- main Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="false"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="3dp"
+                            android:src="@drawable/java" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Level 1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/darkblue"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginRight="40dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@android:color/darker_gray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="The Arithmetic Operators - The Relational Operators - The Bitwise Operators - The Logical Operators"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:textColor="@color/lightgray"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+            <!-- First Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="horizontal">
+
+                <!-- lesson 1 Card -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/lv1_lesson1_id"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/white">
+
+                        <CheckBox
+                            android:id="@+id/ch_lv1_ls1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:clickable="true"/>
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="7dp"
+                            android:src="@drawable/lesson" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Lesson 1"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="The Arithmetic Operators"
+                            android:textColor="@android:color/darker_gray" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <!-- lesson 2 Card -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/lv1_lesson2_id"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/white">
+
+                        <CheckBox
+                            android:id="@+id/ch_lv1_ls2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:clickable="true"/>
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="7dp"
+                            android:src="@drawable/lesson" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Lesson 2"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="The Relational Operators"
+                            android:textColor="@android:color/darker_gray" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <!-- Second Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="horizontal">
+
+                <!-- lesson 1 Card -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/lv1_lesson3_id"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/white">
+
+                        <CheckBox
+                            android:id="@+id/ch_lv1_ls3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:clickable="true"/>
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="7dp"
+                            android:src="@drawable/lesson" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Lesson 3"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="The Bitwise Operators"
+                            android:textColor="@android:color/darker_gray" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <!-- lesson 4 Card -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/lv1_lesson4_id"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/white">
+
+                        <CheckBox
+                            android:id="@+id/ch_lv1_ls4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:clickable="true"/>
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="7dp"
+                            android:src="@drawable/lesson" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Lesson 4"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="The Logical Operators"
+                            android:textColor="@android:color/darker_gray" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/test1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:text="Go To Level Test"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+<!-- Videos
+
+
+<LinearLayout
+android:id="@+id/l1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="50dp"
+android:clipToPadding="false"
+android:orientation="vertical">
+
+
+<android.support.v7.widget.CardView
+    android:id="@+id/lesson_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_weight="1"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="left"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/video1"
+            android:transitionName="imageTransation"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Lesson 1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="12dp"
+                android:background="@color/colorPrimary"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="'Introduction...' "
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox1_level1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+<android.support.v7.widget.CardView
+    android:id="@+id/lesson_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_weight="1"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="left"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/video1"
+            android:transitionName="imageTransation2"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Lesson 2"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="12dp"
+                android:background="@color/colorPrimary"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="'Introduction...' "
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/checkbox2_level1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+
+
+          <Button
+                    android:id="@+id/test1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:text="Go to Test now "
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+-->

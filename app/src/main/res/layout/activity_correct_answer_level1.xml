@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test_Result.CorrectAnswerLevel1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        tools:context=".Test_Result.CorrectAnswerLevel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- q1 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q1_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 1"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What output is produced by the following program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level1_q1"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Your Answer Is Wrong In This Question"
+                      android:textColor="@android:color/holo_red_light"
+                      android:textStyle="bold"
+                      android:textAlignment="center"
+                      android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is '7'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q2 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q2_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 2"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What output is produced by the following program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level1_q2"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'false true  true false false  true true false'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q3 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q3_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 3"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="@string/as_with_the_bitwise_boolean_operators_discussed_in_question_2_above_and_the_short_circuit_logical_operators_and_can_be_applied_to_either_boolean_or_integer_types"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'False'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q4 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q4_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 4"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What output is produced by the following program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level1_q4"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'A compiler error'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q5 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q5_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 5"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="Java provides 'short-circuit' AND, OR, and XOR operators"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'False'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q6 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q6_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 6"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="The following expressions describe the behavior of the short-circuit logical operators, regardless of the value of the boolean variable X."
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="@string/false_x_false"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="• true || X = true"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="textStart" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'true'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q7 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q7_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 7"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="Given the following expression:"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="a = x ? b : c;"
+                        android:textColor="@color/gray"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="The following statements are all true?"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:text=" •	 The types of the expressions b and c must be compatible and are made identical through conversion."
+                        android:textColor="@color/gray"
+                        android:textSize="14sp"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:text=" •	 The type of the expression x must be boolean."
+                        android:textColor="@color/gray"
+                        android:textSize="14sp"
+                        android:textAlignment="textStart" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:text=" • 	The type of the expressions b and c must be assignment compatible with the type of a."
+                        android:textColor="@color/gray"
+                        android:textSize="14sp"
+                        android:textAlignment="textStart" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'True'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q8 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q8_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 8"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What is the output of this program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level1_q8"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'false'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q9 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q9_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 9"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What is the output of this program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level1_q9"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'false true'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q10 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q10_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 10"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What is the output of this program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level1_q10"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'false'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q11 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q11_lv1_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 11"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="@string/which_of_these_is_returned_by_greater_than_and_equal_to_operator"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'Boolean'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

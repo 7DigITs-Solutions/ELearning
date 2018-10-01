@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "447410543976",
+    "firebase_url": "https://e-learning-7c397.firebaseio.com",
+    "project_id": "e-learning-7c397",
+    "storage_bucket": "e-learning-7c397.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447410543976:android:12bc9876ebd81616",
+        "android_client_info": {
+          "package_name": "com.SevenDigITs.Solutions.E_Learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447410543976-cvfvh5ku79dntr55qc6okc1cb53bjfnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.SevenDigITs.Solutions.E_Learning",
+            "certificate_hash": "7790ed4fe69428da4aa36f8271f047625c632356"
+          }
+        },
+        {
+          "client_id": "447410543976-5n9vjkqa0bpqkls6lmg6r07sj5v496pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.SevenDigITs.Solutions.E_Learning",
+            "certificate_hash": "aaaec554006aa372c9df407e127c6e6c0610e657"
+          }
+        },
+        {
+          "client_id": "447410543976-tcl08kgog7rh44qcsso7dli3fl7h1jq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.SevenDigITs.Solutions.E_Learning",
+            "certificate_hash": "abddef4cc417cefa37d3342c0e35012d34431d5c"
+          }
+        },
+        {
+          "client_id": "447410543976-18mra8m9ilof1lb08rlsnehdc96pntku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuR99YGhSSkU8XPMdbWAg4sWljoX7v9l8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447410543976-18mra8m9ilof1lb08rlsnehdc96pntku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

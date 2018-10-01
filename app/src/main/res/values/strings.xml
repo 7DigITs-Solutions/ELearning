@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Intelligent Tutoring System</string>
+
+    <!-- start of Strings for validation -->
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="emailerror">Enter Valid Email that must like "example.4@gmail.com"</string>
+    <string name="passworderror">Enter Valid Password that must contains one digit from 0-9 and length at least 6 characters and maximum of 20</string>
+    <string name="err_password_confirmation">Password and Re-Password not match Please Ensure From It</string>
+    <string name="mobileerror">Enter Valid Mobile Number that must contain numbers that length 11 and including character [+] infront that is optional </string>
+    <!-- end of Strings for validation -->
+
+    <string name="invalid_age_trusted">Enter Valid Age that between 15 and 70</string>
+    <string name="err_major">Enter Your Major </string>
+    <string name="title_activity_user_info">userInfo</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="username">Username</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="university_optional">University (optional)</string>
+    <string name="major">Major</string>
+    <string name="age">Age</string>
+    <string name="todo">TODO</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="forget_password">Forget password ?</string>
+    <string name="create_new_an_account">Create a new account ?</string>
+    <string name="enter_your_registered_email">Enter your registered email</string>
+    <string name="check_email">Check Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="navigation_drawer_open">open nabigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="logical_operators_in_java" />
+    <string name="you_are_in" />
+    <string name="click_to_continue" />
+    <string name="course_overview" />
+    <string name="java_basic_operators" />
+    <string name="level_1" />
+    <string name="the_arithmetic_operators_the_relational_operators_the_bitwise_operators_the_logical_operators" />
+    <string name="the_assignment_operators_miscellaneous_operators_instance_of_operator_precedence_of_java_operators" />
+    <string name="relational_Operators"><![CDATA[( < , <= , >= , == , != )]]></string>
+    <string name="a_b_false">a == b = false</string>
+    <string name="a_b_true">a != b = true</string>
+    <string name="a_b_false2"><![CDATA[a > b = false]]></string>
+    <string name="a_b_true2"><![CDATA[a < b = true]]></string>
+    <string name="b_a_true"><![CDATA[b >= a = true]]></string>
+    <string name="b_a_false"><![CDATA[b <= a = false]]></string>
+    <string name="bitwise_and_bitwise_or_bitwise_xor_bitwise_not_negation_left_shift_right_shift_unsigned_right_shift"><![CDATA[( ‘ & ’ bitwise AND, ‘ | ’ bitwise OR, ‘ ^ ’ bitwise XOR, ‘ ~ ’ bitwise NOT (negation), ‘ << ‘ left shift, ‘ >> ’ right shift, ‘ >>> ’ unsigned right shift )]]></string>
+    <string name="a_b_0000_1100"><![CDATA[a & b = 0000 1100]]></string>
+    <string name="the_bitwise_operators">The Bitwise Operators</string>
+    <string name="assume_integer_variable_a_holds_60_and_variable_b_holds_13_then">Assume integer variable A holds 60 and variable B holds 13, then</string>
+    <string name="the_following_table_lists_the_bitwise_operators">The following table lists the bitwise operators:</string>
+    <string name="the_following_program_is_a_simple_example_that_demonstrates_the_bitwise_operators">The following program is a simple example that demonstrates the bitwise operators.</string>
+    <string name="a_b_12"><![CDATA[a & b = 12]]></string>
+    <string name="a_b_61">a | b = 61</string>
+    <string name="a_b_49">a ^ b = 49</string>
+    <string name="a_61">~a = -61</string>
+    <string name="a_2_240"><![CDATA[a << 2 = 240]]></string>
+    <string name="a_2_15"><![CDATA[a >> 2 = 15]]></string>
+    <string name="example">Example</string>
+    <string name="this_will_produce_the_following_result">This will produce the following result:</string>
+    <string name="java_defines_several_bitwise_operators_which_can_be_applied_to_the_integer_types_long_int_short_char_and_byte">Java defines several bitwise operators, which can be applied to the integer types, long, int, short, char, and byte.</string>
+    <string name="a_0011_1100">a = 0011 1100</string>
+    <string name="bitwise_operator_works_on_bits_and_performs_bit_by_bit_operation">Bitwise operator works on bits and performs bit-by-bit operation.</string>
+    <string name="assume_if_a_60_and_b_13_now_in_binary_format_they_will_be_as_follows">Assume if a = 60 and b = 13; now in binary format they will be as follows:</string>
+    <string name="a_b_0011_1101">a | b = 0011 1101</string>
+    <string name="b_0000_1101">b = 0000 1101</string>
+    <string name="a_b_0011_0001">a ^ b = 0011 0001</string>
+    <string name="a_1100_0011">~ a = 1100 0011</string>
+    <string name="a_2_15_2"><![CDATA[a >>> 2 = 15]]></string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="logical_and_logical_or_logical_not"><![CDATA[( ‘ && ’ logical AND, ‘ || ’ logical OR, ‘ !! ’ logical NOT )]]></string>
+    <string name="logical_operators_in_java_are"><![CDATA[Logical operators in java are: && , || , !]]></string>
+    <string name="b1_b2_will_return_true_if_both_b1_and_b2_are_true_else_it_would_return_false"><![CDATA[b1 && b2 will return true if both b1 and b2 are true else it would return false.]]></string>
+    <string name="a_b_true23"><![CDATA[! (a && b) = true]]></string>
+    <string name="a_b_false23"><![CDATA[a && b = false]]></string>
+    <string name="assignmentoperators"><![CDATA[( = , += , -= , *= , /= , %= , <<= , >>= , >>>= , &= , |= , ^= )]]></string>
+    <string name="c_a_0"><![CDATA[c &= a = 0]]></string>
+    <string name="c_2_20"><![CDATA[c <<= 2 = 20]]></string>
+    <string name="similarly_if_we_take_an_expression_a_25_40_123_456_then_second_operand_123_will_be_assigned_to_a_as_the_result_of_condition_first_operand_is_true"><![CDATA[Similarly, if we take an expression a = 25<40?123:456 then second operand (123) will be assigned to ‘a’ as the result of condition (first operand) is true.]]></string>
+    <string name="as_with_the_bitwise_boolean_operators_discussed_in_question_2_above_and_the_short_circuit_logical_operators_and_can_be_applied_to_either_boolean_or_integer_types"><![CDATA[As with the bitwise (Boolean) operators discussed in Question 2 above ( & and | ), the short-circuit logical operators ( && and || ) can be applied to either boolean or integer types.]]></string>
+    <string name="false_x_false"><![CDATA[   •  false && X = false]]></string>
+    <string name="which_of_these_is_returned_by_greater_than_and_equal_to_operator"><![CDATA[Which of these is returned by greater than, <, and equal to, ==, operator?]]></string>
+
+
+</resources>

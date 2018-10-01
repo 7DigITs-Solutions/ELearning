@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test_Result.CorrectAnswerLevel2">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        tools:context=".Test_Result.CorrectAnswerLevel2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- q1 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q1_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 1"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What output is produced by the following program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level2_q1"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'Not Equal'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q2 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q2_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 2"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What output is produced by the following program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level2_q2"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'Equal'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q3 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q3_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 3"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What output is produced by the following program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level2_q3"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'Equal'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q4 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q4_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 4"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What output is produced by the following program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level2_q4"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'a=20  b=0  c=20  d=1'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q5 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q5_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 5"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What is the output of this program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level2_q5"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'compile time error'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q6 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q6_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 6"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="Which of these statements are incorrect?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'Division operator, /, has higher precedence than multiplication operator'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q7 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q7_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 7"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="Which of these have highest precedence?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is '()'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q8 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q8_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 8"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What is the output of relational operators?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is 'Boolean'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q9 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q9_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 9"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What is the output of this code?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level2_q9"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is'This program writes '8' to the standard output'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q10 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q10_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 10"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What is the output of this program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level2_q10"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is'27 9'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- q11 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/q11_lv2_cardView_id_correct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Question 11"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="What is the output of this program?"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/darkblue" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/level2_q11"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/lightblue" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Answer Is Wrong In This Question"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Correct Answer Is'12'"
+                        android:textColor="@color/lightblue"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

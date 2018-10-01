@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/the_bitwise_operators"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/bitwise_and_bitwise_or_bitwise_xor_bitwise_not_negation_left_shift_right_shift_unsigned_right_shift"
+                        android:layout_gravity="left"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/java_defines_several_bitwise_operators_which_can_be_applied_to_the_integer_types_long_int_short_char_and_byte"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/bitwise_operator_works_on_bits_and_performs_bit_by_bit_operation"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/lightblue"
+                        android:layout_marginTop="10dp"
+                       >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/assume_if_a_60_and_b_13_now_in_binary_format_they_will_be_as_follows"
+                            android:textSize="15sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_0011_1100"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/b_0000_1101"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/white"
+                            android:layout_marginBottom="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_b_0000_1100"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_b_0011_1101"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_b_0011_0001"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_1100_0011"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/white"
+                            android:layout_marginBottom="10dp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/the_following_table_lists_the_bitwise_operators"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/assume_integer_variable_a_holds_60_and_variable_b_holds_13_then"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/txt3_lev1_lesson3"
+                        android:contentDescription="@string/todo" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/example"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/the_following_program_is_a_simple_example_that_demonstrates_the_bitwise_operators"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/txt3_lev1_lesson3a"
+                        android:contentDescription="@string/todo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/this_will_produce_the_following_result"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/lightgray2"
+                        android:layout_margin="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/a_b_12"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_b_61"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_b_49"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_61"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_2_240"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_2_15"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_2_15_2"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"
+                            android:layout_marginBottom="20dp"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

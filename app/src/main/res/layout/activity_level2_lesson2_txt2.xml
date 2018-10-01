@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="The Miscellaneous Operators"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="There are few other operators supported by Java Language."
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="Conditional Operator ( ? : )"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We have a special operator that works based on the truth value of a condition. This java operator is known as a conditional operator. This operator contains 3 operands, so it is also known as ternary operator."
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/lightblue">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="To understand , first we need to discuss a known operation like ” a = 10+20;"
+                            android:textSize="15sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="In this expression, result of 10+20 is assigned to  ” a “. Similarly, in conditional operation, if we have an expression like ‘ a = 10==20?30:40’ , the result of ‘ 10==20?30:40 ’ will be assigned to “a”."
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart"
+                            />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In this expression, 10==20 is the first operand, 30 is the second operand, and 40 is the third operand. The symbol ? is placed between first and second operands and the symbol “: “ is placed between second and third operands. The actual result (value) of the expression is either second operand or the third operand."
+                        android:layout_marginTop="5dp"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:autoSizeMaxTextSize="5dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This decision (second or third) is taken based on the first operand which gives true or false as a result."
+                        android:layout_marginTop="5dp"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:autoSizeMaxTextSize="5dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="If it results in true, the second operand will be the result, and if it results in false, the third operand is the result. In our example 10==20 is false, so the third operand (40) will be the result."
+                        android:layout_marginTop="5dp"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:autoSizeMaxTextSize="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="So, the value 40 is assigned to ” a “."
+                        android:layout_marginTop="5dp"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:autoSizeMaxTextSize="5dp"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/lightblue">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/similarly_if_we_take_an_expression_a_25_40_123_456_then_second_operand_123_will_be_assigned_to_a_as_the_result_of_condition_first_operand_is_true"
+                            android:textSize="15sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart" />
+
+                        <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Example: "
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="textStart"
+                        />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="•	16==16 ? 13 : 10                result will be 13"
+                            android:textSize="15sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="•	16!=16 ? 13 : 10                 result will be 10"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="5dp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="In this operation, both the second operand and third operand should be of the same type."
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart"
+                            />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Conditional operator is also known as the ternary operator. This operator consists of three operands and is used to evaluate Boolean expressions. The goal of the operator is to decide, which value should be assigned to the variable. The operator is written as:"
+                        android:layout_marginTop="5dp"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:autoSizeMaxTextSize="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="variable x = (expression) ? value if true : value if false"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:autoSizeMaxTextSize="5dp"
+                        android:background="@color/lightgray2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="Example"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="The following program is a simple example which demonstrates the Conditional operators."
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/txt2_lev2_lesson2a"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="This will produce the following result: "
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/lightgray2"
+                        android:layout_margin="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Value of b is : 30"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="30dp"
+                            android:textColor="@color/gray"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Value of b is : 20"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"
+                            android:layout_marginBottom="10dp"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="Instance of Operator:"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This operator is used only for object reference variables. The operator checks whether the object is of a particular type (class type or interface type). instanceof operator is written as:"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                       />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="( Object reference variable ) instanceof  (class/interface type)"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:autoSizeMaxTextSize="5dp"
+                        android:background="@color/lightgray2"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="If the object referred by the variable on the left side of the operator passes the IS-A check for the class/interface type on the right side, then the result will be true."
+                        android:layout_marginTop="5dp"
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:autoSizeMaxTextSize="5dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="Example 1"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"
+                        android:textAlignment="center"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/txt2_lev2_lesson2b"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="This will produce the following result: "
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/lightgray2"
+                        android:layout_margin="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="true"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This operator will still return true, if the object being compared is the assignment compatible with the type on the right."
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:text="Example 2"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray"
+                        android:textAlignment="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/txt2_lev2_lesson2c"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="This will produce the following result: "
+                        android:textSize="15sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/gray"
+                        android:textAlignment="textStart"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/lightgray2"
+                        android:layout_margin="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="true"
+                            android:layout_gravity="left"
+                            android:textSize="15sp"
+                            android:layout_marginStart="30dp"
+                            android:textColor="@color/gray"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

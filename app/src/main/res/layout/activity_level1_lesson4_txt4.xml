@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="The Logical Operators"
+                        android:textAlignment="center"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="12dp"
+                        android:text="@string/logical_and_logical_or_logical_not"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="12dp"
+                        android:text="Logical Java operators also result in Boolean values. These are used to check  ” multiple Boolean values ” as a single unit."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="12dp"
+                        android:text="Logical Operators are used with binary variables. They are mainly used in conditional statements and loops for evaluating a condition."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="10dp"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@color/lightblue">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="12dp"
+                            android:text="@string/logical_operators_in_java_are"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="12dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Let’s say we have two Boolean variables b1 and b2."
+                            android:textAlignment="textStart"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="12dp"
+                            android:text="@string/b1_b2_will_return_true_if_both_b1_and_b2_are_true_else_it_would_return_false"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:layout_marginTop="10dp"
+                           />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:paddingEnd="1dp"
+                            android:paddingStart="12dp"
+                            android:text="b1 || b2 will return false if both b1 and b2 are false else it would return true."
+                            android:textAlignment="textStart"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="12dp"
+                            android:text="! b1 would return the opposite of b1, that means it would be true if b1 is false and it would return false if b1 is true."
+                            android:textAlignment="textStart"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="12dp"
+                        android:text="Truth table for logical java operators:"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:src="@drawable/txt4_lev1_lesson4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="12dp"
+                        android:text="The following table lists the logical operators."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="12dp"
+                        android:text="Assume Boolean variables A holds true and variable B holds false, then"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/txt4_lev1_lesson4a" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="Example"
+                        android:textAlignment="center"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="12dp"
+                        android:text="The following simple example program demonstrates the logical operators."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/txt4_lev1_lesson4b" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="12dp"
+                        android:text="This will produce the following result: "
+                        android:textAlignment="textStart"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp"
+                        android:background="@color/lightgray2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/a_b_false23"
+                            android:textColor="@color/gray"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginStart="30dp"
+                            android:text="a || b = true"
+                            android:textColor="@color/gray"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="30dp"
+                            android:text="@string/a_b_true23"
+                            android:textColor="@color/gray"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="10dp"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
